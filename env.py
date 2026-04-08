@@ -1,9 +1,7 @@
 import sys
 import os
 
-current_dir = os.path.dirname(os.path.abspath(__file__))
-sys.path.append(current_dir)
-
+sys.path.insert(0, "/app")
 
 from tasks.email_task import process_email
 from tasks.data_cleaning_task import clean_data
