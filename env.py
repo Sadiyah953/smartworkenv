@@ -1,3 +1,10 @@
+import sys
+import os
+
+current_dir = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(current_dir)
+
+
 from tasks.email_task import process_email
 from tasks.data_cleaning_task import clean_data
 from tasks.scheduling_task import schedule_task
