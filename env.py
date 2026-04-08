@@ -1,7 +1,7 @@
 import sys
 import os
 
-# Add /app folder to Python path inside Hugging Face Space
+# Ensure /app is in Python path inside Hugging Face Space
 sys.path.insert(0, "/app")
 
 from tasks.email_task import process_email
