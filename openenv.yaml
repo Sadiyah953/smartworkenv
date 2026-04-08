@@ -1,0 +1,13 @@
+id: smartworkenv
+name: Smart Work Environment
+description: A simple environment to process tasks like email, data cleaning, and scheduling.
+
+entrypoint: inference.py
+
+python:
+  version: "3.10"
+
+dependencies:
+  - fastapi
+  - uvicorn
+  - pydantic
